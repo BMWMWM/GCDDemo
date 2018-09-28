@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D821521C2073245900DC5D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D821521B2073245900DC5D61 /* Assets.xcassets */; };
 		D8F26C13204E6F07003A06A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F26C12204E6F07003A06A5 /* main.m */; };
 		D8F26C16204E6F07003A06A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F26C15204E6F07003A06A5 /* AppDelegate.m */; };
 		D8F26C19204E6F07003A06A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F26C18204E6F07003A06A5 /* ViewController.m */; };
 		D8F26C1C204E6F07003A06A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F26C1A204E6F07003A06A5 /* Main.storyboard */; };
-		D8F26C1E204E6F07003A06A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F26C1D204E6F07003A06A5 /* Assets.xcassets */; };
 		D8F26C21204E6F07003A06A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F26C1F204E6F07003A06A5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8F26C0E204E6F07003A06A5 /* 线程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "线程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D821521B2073245900DC5D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F26C0E204E6F07003A06A5 /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F26C12204E6F07003A06A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8F26C14204E6F07003A06A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8F26C15204E6F07003A06A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8F26C17204E6F07003A06A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D8F26C18204E6F07003A06A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8F26C1B204E6F07003A06A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D8F26C1D204E6F07003A06A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F26C20204E6F07003A06A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F26C22204E6F07003A06A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,7 +50,7 @@
 		D8F26C0F204E6F07003A06A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8F26C0E204E6F07003A06A5 /* 线程.app */,
+				D8F26C0E204E6F07003A06A5 /* GCD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,7 +63,7 @@
 				D8F26C17204E6F07003A06A5 /* ViewController.h */,
 				D8F26C18204E6F07003A06A5 /* ViewController.m */,
 				D8F26C1A204E6F07003A06A5 /* Main.storyboard */,
-				D8F26C1D204E6F07003A06A5 /* Assets.xcassets */,
+				D821521B2073245900DC5D61 /* Assets.xcassets */,
 				D8F26C1F204E6F07003A06A5 /* LaunchScreen.storyboard */,
 				D8F26C22204E6F07003A06A5 /* Info.plist */,
 				D8F26C11204E6F07003A06A5 /* Supporting Files */,
@@ -96,7 +96,7 @@
 			);
 			name = "线程";
 			productName = "线程";
-			productReference = D8F26C0E204E6F07003A06A5 /* 线程.app */;
+			productReference = D8F26C0E204E6F07003A06A5 /* GCD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,8 @@
 				TargetAttributes = {
 					D8F26C0D204E6F06003A06A5 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = C7CGB88FWA;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F26C21204E6F07003A06A5 /* LaunchScreen.storyboard in Resources */,
-				D8F26C1E204E6F07003A06A5 /* Assets.xcassets in Resources */,
+				D821521C2073245900DC5D61 /* Assets.xcassets in Resources */,
 				D8F26C1C204E6F07003A06A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +273,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C7CGB88FWA;
 				INFOPLIST_FILE = "线程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.tsou.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.anjibc;
+				PRODUCT_NAME = GCD;
+				PROVISIONING_PROFILE = "2b8d8a78-1200-4331-883b-2b57287533fd";
+				PROVISIONING_PROFILE_SPECIFIER = zhenjitest1;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -283,10 +290,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = C7CGB88FWA;
 				INFOPLIST_FILE = "线程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.tsou.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsg.anjibc;
+				PRODUCT_NAME = GCD;
+				PROVISIONING_PROFILE = "2b8d8a78-1200-4331-883b-2b57287533fd";
+				PROVISIONING_PROFILE_SPECIFIER = zhenjitest1;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -309,6 +322,7 @@
 				D8F26C27204E6F07003A06A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
